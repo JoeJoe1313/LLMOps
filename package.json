@@ -1,0 +1,18 @@
+{
+  "name": "llmops",
+  "version": "1.0.0",
+  "description": "Project following the LinkedIn Learning course [LLMOps in Practice: A Deep Dive](https://www.linkedin.com/learning/llmops-in-practice-a-deep-dive?u=0).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0",
+    "socket.io": "^4.8.1"
+  }
+}
