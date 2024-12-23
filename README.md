@@ -13,3 +13,13 @@ As LLM-based apps proliferate, many function as thin veneers around more robust 
 - Create a web application that wraps an LLM using an API.
 - Use RAG to extend your application.
 - Create a vector database using PineCone or VectorDB.
+
+## Process
+
+1. Download `Node.js`
+2. `npm init -y` -> creates `package.json`
+3. `npm install express dotenv openai socket.io` -> creates `package-lock.json` and `node_modules`
+4. Create OpenAI api-key
+5. Create `openai.js`
+6. Create `server.js` -> backend
+7. Create `index.html` -> frontend
